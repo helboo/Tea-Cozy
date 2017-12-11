@@ -1,0 +1,112 @@
+* {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+background-color: black;
+display: flex;
+flex-flow: column wrap;
+}
+div {
+  border: solid 1px white;
+  display: flex;
+}
+/*HEADER ICI*/
+.header  {
+height: 69px;
+width: 100%;
+border-bottom: 1px solid seashell;
+position: fixed;
+z-index: 20;
+display: inline-flex;
+flex-direction: row nowrap;
+}
+.logo{
+  height: 50px;
+  width : 10%;
+  padding-left: 10px;
+}
+.nav  {
+text-decoration: underline;
+}
+/*CONTENU*/
+.content  {
+position: relative;
+top: 69px;
+text-align: center;
+opacity: 0.9;
+}
+/*MISSION*/
+.mission  {
+margin-top: 68px;
+height: 700px;
+justify-content: center;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+.missiontitle{
+  z-index: 19;
+}
+.missiontext{
+  z-index: 18;
+}
+
+/*THES DU MOIS*/
+.month{
+  width: 1000px;
+}
+.monthtitle{
+  z-index: 17;
+}
+.monthitem1 {
+  z-index: 16;
+}
+.monthitem2 {
+  z-index: 15;
+}
+.monthitem3 {
+  z-index: 14;
+}
+.monthitem4{
+  z-index: 13;
+}
+.monthitem5{
+  z-index: 13;
+}
+.monthimage{
+  height: 200px;
+  width: 300px;
+}
+.monthlist {
+  max-width: 1000px;
+  flex-flow: row wrap;
+}
+/*LOCATIONS ICI*/
+.biglocation  {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+.locationstitle {
+  margin-bottom: 15px;
+}
+.location{
+flex-flow: row nowrap;
+background-color: black;
+}
+.locations2,
+.locations3{
+margin-left: 40px;
+}
+.locations1,
+.locations2,
+.locations3 {
+flex-direction: column;
+}
+
+
+/*DESSOUS - ADRESSE*/
+.contact  {
+  height: 200px;
+}
+/*FOOTER*/
+footer{
+padding-left: 20px;
+text-align: left;
+}
